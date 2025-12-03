@@ -1,399 +1,239 @@
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 82, in getPythonParseObject
-    full_tree = ast.parse( open( pyFile ).read())
-                       ^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
-
-Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
-    func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 82, in getPythonParseObject
-    full_tree = ast.parse( open( pyFile ).read())
-                       ^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
-
-Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
-    func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 82, in getPythonParseObject
-    full_tree = ast.parse( open( pyFile ).read())
-                       ^^^^^^^^^^^^^^
-ValueError: embedded null character
-
-Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
-    func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 82, in getPythonParseObject
-    full_tree = ast.parse( open( pyFile ).read())
-                       ^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff'
-
-Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
-    func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 82, in getPythonParseObject
-    full_tree = ast.parse( open( pyFile ).read())
-                       ^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: 'def func(:\n    pass'
-
-Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
-    func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 82, in getPythonParseObject
-    full_tree = ast.parse( open( pyFile ).read())
-                       ^^^^^^^^^^^^^^
-OSError: [Errno 22] Invalid argument: 'import * from module'
-
-Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
-    func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 82, in getPythonParseObject
-    full_tree = ast.parse( open( pyFile ).read())
-                       ^^^^^^^^^^^^^^
-OSError: [Errno 22] Invalid argument: 'class A:\n    def method(self):\n        return self'
-
-Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
-    func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 82, in getPythonParseObject
-    full_tree = ast.parse( open( pyFile ).read())
-                       ^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: "def func():\n    return 'Hello\n"
-
-Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
-    func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 82, in getPythonParseObject
-    full_tree = ast.parse( open( pyFile ).read())
-                       ^^^^^^^^^^^^^^
-OSError: [Errno 22] Invalid argument: 'def func():\n    x = 1/0'
-
-Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
-    func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 82, in getPythonParseObject
-    full_tree = ast.parse( open( pyFile ).read())
-                       ^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: 'def func():\n    y = unknown_var'
-
-Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
-    func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 433, in checkIfParsablePython
-    full_tree = ast.parse( open( pyFile ).read())
-                       ^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: ''
-
-Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
-    func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 433, in checkIfParsablePython
-    full_tree = ast.parse( open( pyFile ).read())
-                       ^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
-
-Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
-    func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 433, in checkIfParsablePython
-    full_tree = ast.parse( open( pyFile ).read())
-                       ^^^^^^^^^^^^^^
-ValueError: embedded null character
-
-Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
-    func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 433, in checkIfParsablePython
-    full_tree = ast.parse( open( pyFile ).read())
-                       ^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff\uffff'
-
-Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
-    func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 433, in checkIfParsablePython
-    full_tree = ast.parse( open( pyFile ).read())
-                       ^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: 'def func(:\n    pass'
-
-Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
-    func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 433, in checkIfParsablePython
-    full_tree = ast.parse( open( pyFile ).read())
-                       ^^^^^^^^^^^^^^
-OSError: [Errno 22] Invalid argument: 'import * from module'
-
-Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
-    func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 433, in checkIfParsablePython
-    full_tree = ast.parse( open( pyFile ).read())
-                       ^^^^^^^^^^^^^^
-OSError: [Errno 22] Invalid argument: 'class A:\n    def method(self):\n        return self'
-
-Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
-    func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 433, in checkIfParsablePython
-    full_tree = ast.parse( open( pyFile ).read())
-                       ^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: "def func():\n    return 'Hello\n"
-
-Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
-    func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 433, in checkIfParsablePython
-    full_tree = ast.parse( open( pyFile ).read())
-                       ^^^^^^^^^^^^^^
-OSError: [Errno 22] Invalid argument: 'def func():\n    x = 1/0'
-
-Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
-    func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 433, in checkIfParsablePython
-    full_tree = ast.parse( open( pyFile ).read())
-                       ^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: 'def func():\n    y = unknown_var'
-
-Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
-    func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 258, in getFunctionDefinitions
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 275, in getFunctionDefinitions
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 258, in getFunctionDefinitions
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 275, in getFunctionDefinitions
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 258, in getFunctionDefinitions
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 275, in getFunctionDefinitions
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 258, in getFunctionDefinitions
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 275, in getFunctionDefinitions
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 258, in getFunctionDefinitions
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 275, in getFunctionDefinitions
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 258, in getFunctionDefinitions
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 275, in getFunctionDefinitions
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 258, in getFunctionDefinitions
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 275, in getFunctionDefinitions
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 258, in getFunctionDefinitions
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 275, in getFunctionDefinitions
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 258, in getFunctionDefinitions
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 275, in getFunctionDefinitions
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 258, in getFunctionDefinitions
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 275, in getFunctionDefinitions
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 419, in getImport
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 437, in getImport
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 419, in getImport
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 437, in getImport
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 419, in getImport
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 437, in getImport
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 419, in getImport
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 437, in getImport
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 419, in getImport
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 437, in getImport
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 419, in getImport
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 437, in getImport
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 419, in getImport
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 437, in getImport
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 419, in getImport
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 437, in getImport
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 419, in getImport
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 437, in getImport
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 419, in getImport
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 437, in getImport
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 188, in getFunctionAssignments
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 201, in getFunctionAssignments
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 188, in getFunctionAssignments
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 201, in getFunctionAssignments
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 188, in getFunctionAssignments
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 201, in getFunctionAssignments
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 188, in getFunctionAssignments
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 201, in getFunctionAssignments
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 188, in getFunctionAssignments
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 201, in getFunctionAssignments
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 188, in getFunctionAssignments
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 201, in getFunctionAssignments
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 188, in getFunctionAssignments
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 201, in getFunctionAssignments
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 188, in getFunctionAssignments
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 201, in getFunctionAssignments
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 188, in getFunctionAssignments
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 201, in getFunctionAssignments
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
 
 Traceback (most recent call last):
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\fuzz.py", line 31, in fuzz_function
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\fuzz.py", line 31, in fuzz_function
     func(inp)
-  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\forensics\FAME_ML\py_parser.py", line 188, in getFunctionAssignments
+  File "C:\Users\mrcle\OneDrive - Auburn University\2025 Fall\COMP 5710\project\FAME_ML\py_parser.py", line 201, in getFunctionAssignments
     for stmt_ in pyTree.body:
                  ^^^^^^^^^^^
 AttributeError: 'str' object has no attribute 'body'
