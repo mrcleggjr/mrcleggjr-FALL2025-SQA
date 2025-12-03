@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -19,7 +19,7 @@ jobs:
         run: python FAME_ML/fuzz.py
 
       - name: Upload fuzz results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: fuzz_results
           path: 'FAME_ML/fuzz_results.txt'
