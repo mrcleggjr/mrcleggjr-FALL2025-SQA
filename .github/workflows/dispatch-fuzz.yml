@@ -17,3 +17,9 @@ jobs:
 
       - name: Run fuzz.py
         run: python FAME_ML/fuzz.py
+
+      - name: Upload fuzz results
+        uses: actions/upload-artifact@v3
+        with:
+          name: fuzz_results
+          path: 'FAME_ML/fuzz_results.txt'
